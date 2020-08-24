@@ -1,0 +1,6 @@
+<?php
+/**
+ * Run Trouter Development Server
+ * This'l start an http server at 127.0.0.1:8000
+ */
+system('php -S localhost:8080 server.php');
