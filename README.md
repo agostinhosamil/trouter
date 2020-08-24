@@ -33,3 +33,6 @@ $trouter->define ('public directory', './public');
  */
 $trouter->run ();
 ```
+
+Then, run a broswer at: http://localhost:8000 to view the application.
+
