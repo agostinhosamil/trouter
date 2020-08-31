@@ -6,7 +6,7 @@ This is a way for creating routes and also managing the way a controler and view
 
 Trouter has implemented a simple way for organizing the router targets according to the directory structure like next.js does.
 
-It, has not got [by default] a MVC structure assuming that router is the core of Trouter functionalities and objetives; but it may be extended with with any created module that should be added to a project to do this and Trouter will manage it, giving to it the possibility to manage part or parts of the application acording to the given (permissions)[https://phpmodule-permitions.github.io] to it.
+It, has not got [by default] a MVC structure assuming that router is the core of Trouter functionalities and objetives; but it may be extended with with any created module that should be added to a project to do this and Trouter will manage it, giving to it the possibility to manage part or parts of the application acording to the given [permissions](https://phpmodule-permitions.github.io) to it.
 
 ## Using
 
@@ -62,6 +62,10 @@ Or just,
 php site/dev
 ```
 
+Then, run a broswer at: http://localhost:8000 to view the application.
+
+
+
 ### Using the server document folder (www or htdocs)
 
 If using the Trouter application and running it without using a command line interface, it should be an alternative to do that to host it in the server documents folder; to run Touter by this way its necessary to have a `.htaccess` file in the application root directory (If the trouter root directory does not contain it, create and edit it [as shown bellow]).
@@ -78,5 +82,18 @@ RewriteEngine On
 RewriteRule ^(.*)$ site/server.php
 ```
 
-Then, run a broswer at: http://localhost:8000 to view the application.
+Then, run a broswer at: http://localhost/ProjectName to view the application.
 
+
+## Trouter Application Directory Structure
+
+You may use the Trouter project directory as you application's; you may use the `site` directory as your application's creating its files inside the `site/app` directory (name should be changed); Inside this directory you should create your pages in the `site/app/pages`.
+
+Creating an `index.php` file inside the pages directory you should access it at: `localhost:8000/`, and so on (as seen in the table bellow):
+
+View File Path | Route
+-----------------------
+home/index.php | /home
+home.php | /home
+about/index.php
+about.php | /about
