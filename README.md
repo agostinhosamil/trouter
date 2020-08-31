@@ -91,11 +91,9 @@ You may use the Trouter project directory as you application's; you may use the 
 
 Creating an `index.php` file inside the pages directory you should access it at: `localhost:8000/`, and so on (as seen in the table bellow):
 
-
-View File Path | Route
------------|------------
-home/index.php | /home
-home.php | /home
-about/index.php
-about.php | /about
-
+View File Path | Route Path | Route URL
+--------------------|------------------
+home/index.php | /home | localhost:8000/home
+home.php | /home | localhost:8000/home
+about/index.php | /about | localhost:8000/about
+about.php | /about | localhost:8000/about
