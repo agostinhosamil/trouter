@@ -6,7 +6,7 @@ This is a way for creating routes and also managing the way a controler and view
 
 Trouter has implemented a simple way for organizing the router targets according to the directory structure like next.js does.
 
-It, has not got [by default] a MVC structure assuming that router is the core of Trouter functionalities and objetives; but it may be extended with with any created module that should be added to a project to do this and Trouter will manage it, giving to it the possibility to manage part or parts of the application acording to the given [permissions](https://permitions.github.io) to it.
+It, has not got [by default] a MVC structure assuming that router is the core of Trouter functionalities and objetives; but it may be extended with with any created module that should be added to a project to do this and Trouter will manage it, giving to it the possibility to manage part or parts of the application acording to the given <a href="https://permitions.github.io" target="_blank">permissions</a>() to it.
 
 ## Using
 
