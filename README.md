@@ -6,7 +6,7 @@ This is a way for creating routes and also managing the way a controler and view
 
 Trouter has implemented a simple way for organizing the router targets according to the directory structure like next.js does.
 
-It, has not got [by default] a MVC structure assuming that router is the core of Trouter functionalities and objetives; but it may be extended with with any created module that should be added to a project to do this and Trouter will manage it, giving to it the possibility to manage part or parts of the application acording to the given [permissions](https://permitions.github.io) to it.
+It, has not got [by default] a MVC structure assuming that router is the core of Trouter functionalities and objetives; but it may be extended with with any created module that should be added to a project to do this and Trouter will manage it, giving to it the possibility to manage part or parts of the application acording to the given [permissions](https://phpmodule-permitions.github.io) to it.
 
 ## Using
 
@@ -91,9 +91,12 @@ You may use the Trouter project directory as you application's; you may use the 
 
 Creating an `index.php` file inside the pages directory you should access it at: `localhost:8000/`, and so on (as seen in the table bellow):
 
+
 View File Path | Route Path | Route URL
---------------------|------------------
+----------|---------------------------
 home/index.php | /home | localhost:8000/home
 home.php | /home | localhost:8000/home
 about/index.php | /about | localhost:8000/about
 about.php | /about | localhost:8000/about
+
+
